@@ -2,7 +2,7 @@
 
 # Workshop description
 Software Needed for Demo:
-- [Pyhton 3](https://www.python.org/downloads/)
+- [Python 3](https://www.python.org/downloads/)
 - [Pip 3](https://pip.pypa.io/en/stable/installing/)
 - [Insomnia REST Client](https://insomnia.rest/)
 
