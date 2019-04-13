@@ -1,4 +1,4 @@
-# Building a Basic REST API with Python and Flask_RESTful
+# Building a Basic REST API with Python and Flask RESTful
 
 # Workshop description
 Software Needed for Demo:
