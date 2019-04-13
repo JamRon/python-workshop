@@ -28,7 +28,8 @@ class RouteTwo(Resource):
         return "You Successfully Got information from route 2"
     def post(self):
         data = parser.parse_args()
-        return "You Successfully Posted information to route 2 and the data is: " + data["text"]
+
+        return "You Successfully Posted information to route 2 and the data is: " + data["data"]
 
 api.add_resource(RouteOne, '/api/one')
 api.add_resource(RouteTwo, '/api/two')
