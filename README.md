@@ -26,7 +26,7 @@ pip3 install flask_restful
 ```
 
 ## 4. Use the sample python file with a basic version of the API
-[Sample File](./template/main.py)
+[Sample File](./main.py)
 
 ## 5. Build on it using the documentaion for Flask_RESTful
 [Flask Documentation](https://flask-restful.readthedocs.io/en/latest/)
