@@ -1,4 +1,6 @@
 from flask import Flask
+from flask import request
+from flask import render_template
 from flask_restful import Api, Resource, reqparse
 
 #Creating an Application
@@ -8,7 +10,12 @@ app = Flask(__name__)
 api = Api(app)
 
 parser = reqparse.RequestParser()
-parser.add_argument("text",location='json')
+parser.add_argument("data",location='json')
+
+@app.route("/")
+def hello():
+    return render_template('home.html')
+
 
 class RouteOne(Resource):
     def get(self):
